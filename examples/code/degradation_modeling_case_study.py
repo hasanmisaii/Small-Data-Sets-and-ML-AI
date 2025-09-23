@@ -7,8 +7,20 @@ using small datasets, inspired by real-world reliability engineering application
 We simulate scenarios common in industrial settings where component degradation
 data is limited but critical for predictive maintenance.
 
-Based on principles from: "Small sample reliability demonstration test with degradation data"
-and similar reliability engineering literature.
+This implementation addresses the type of problems discussed in reliability engineering
+literature, including small sample reliability demonstration tests with degradation data.
+The techniques shown here are applicable to real-world scenarios such as:
+- Accelerated testing of electronic components
+- Mechanical wear modeling with limited test data
+- Battery degradation analysis in automotive applications
+- Infrastructure health monitoring with sparse sensor data
+
+Key focus areas:
+- Working with very small datasets (typically 20-100 components)
+- Physics-informed feature engineering
+- Uncertainty quantification for decision-making
+- Remaining Useful Life (RUL) prediction
+- Time series analysis with temporal dependencies
 
 Author: Small Data ML Research
 Date: 2024
