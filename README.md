@@ -110,7 +110,20 @@ A comprehensive case study including:
 - Model interpretability
 - Clinical decision support
 
-### 4. Interactive Jupyter Notebook
+### 4. Degradation Modeling Case Study
+**File**: `examples/code/degradation_modeling_case_study.py`
+
+A specialized case study for reliability engineering and predictive maintenance:
+- Degradation data generation and analysis
+- Small data regression techniques for reliability
+- Remaining Useful Life (RUL) prediction
+- Uncertainty quantification for decision-making
+- Physics-informed feature engineering
+- Real-world applications in predictive maintenance
+
+Based on principles from reliability engineering literature, this example demonstrates how to work with very small degradation datasets typically found in industrial settings.
+
+### 5. Interactive Jupyter Notebook
 **File**: `examples/small_data_ml_examples.ipynb`
 
 An interactive notebook that guides you through all the examples with explanations and visualizations.
@@ -158,7 +171,12 @@ python examples/code/deep_learning_small_data.py
 python examples/code/medical_diagnosis_case_study.py
 ```
 
-4. **Interactive Jupyter Notebook**:
+4. **Degradation Modeling Case Study**:
+```bash
+python examples/code/degradation_modeling_case_study.py
+```
+
+5. **Interactive Jupyter Notebook**:
 ```bash
 jupyter notebook examples/small_data_ml_examples.ipynb
 ```

@@ -117,6 +117,14 @@ Incorporating uncertainty and prior knowledge into models.
 - **Key Papers**:
   - Settles, B. (2009). Active learning literature survey. University of Wisconsin-Madison Department of Computer Sciences.
 
+### Reliability Engineering and Degradation Modeling
+- **Challenge**: Limited degradation data, expensive testing, safety-critical applications
+- **Solutions**: Physics-informed models, Bayesian approaches, uncertainty quantification
+- **Key Papers**:
+  - Meeker, W. Q., & Escobar, L. A. (1998). Statistical methods for reliability data. John Wiley & Sons.
+  - Si, X. S., et al. (2011). Remaining useful life estimation–a review on the statistical data driven approaches. European journal of operational research, 213(1), 1-14.
+  - Zhang, Z., et al. (2019). Degradation data analysis and remaining useful life estimation: A review on Wiener-process-based methods. European Journal of Operational Research, 271(3), 775-796.
+
 ## Evaluation Strategies for Small Data
 
 ### Cross-Validation Techniques
@@ -146,6 +154,18 @@ Automatically finding optimal architectures for small datasets.
 ### 4. Automated Machine Learning (AutoML)
 Automating model selection and hyperparameter tuning for small datasets.
 - **Key Papers**: He, X., et al. (2021). AutoML: A survey of the state-of-the-art. Knowledge-Based Systems, 212, 106622.
+
+### 5. Physics-Informed Machine Learning
+Incorporating domain knowledge and physical laws into small data models.
+- **Key Papers**: 
+  - Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational Physics, 378, 686-707.
+  - Karniadakis, G. E., et al. (2021). Physics-informed machine learning. Nature Reviews Physics, 3(6), 422-440.
+
+### 6. Degradation Modeling and Reliability Applications
+Specialized techniques for reliability engineering with limited failure data.
+- **Key Papers**:
+  - Wang, Y., et al. (2018). A two-stage prognosis model in condition based maintenance. European Journal of Operational Research, 267(2), 487-499.
+  - Lei, Y., et al. (2018). Machinery health prognostics: A systematic review from data acquisition to RUL prediction. Mechanical systems and signal processing, 104, 799-834.
 
 ## Conclusion
 
